@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="war:war exploded">
+    <output-path>$PROJECT_DIR$/war/target/war-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="war" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="lib-1.0.jar">
+            <element id="module-output" name="lib" />
+          </element>
+          <element id="archive" name="api-1.0.jar">
+            <element id="module-output" name="api" />
+          </element>
+          <element id="library" level="project" name="Maven: org.javaone.buildfaceoff:b:1.0" />
+          <element id="library" level="project" name="Maven: org.javaone.buildfaceoff:a:1.0" />
+          <element id="library" level="project" name="Maven: org.javaone.buildfaceoff:c:2.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-test:4.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.14.8" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/war/target/war-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="war/web/Web" />
+    </root>
+  </artifact>
+</component>
